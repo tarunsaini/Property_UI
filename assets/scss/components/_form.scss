@@ -1,0 +1,23 @@
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+select {
+  background-color: transparent !important;
+  border: transparent !important;
+  padding-left: 0 !important;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+
+label {
+  display: block;
+  font-size: 0.8rem;
+  color: #fff;
+
+  @media (max-width: 767px) {
+  }
+}

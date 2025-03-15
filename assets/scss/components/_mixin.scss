@@ -1,0 +1,8 @@
+@mixin wrap() {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+}
